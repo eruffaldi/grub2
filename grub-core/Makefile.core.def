@@ -1201,6 +1201,11 @@ module = {
 };
 
 module = {
+  name = loopbackx;
+  common = disk/loopbackx.c;
+};
+
+module = {
   name = cryptodisk;
   common = disk/cryptodisk.c;
 };
